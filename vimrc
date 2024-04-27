@@ -7,6 +7,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+Plug 'yaegassy/coc-ruff', {'do': 'yarn install --frozen-lockfile'}
 call plug#end()
 
 " Prettier Settings
