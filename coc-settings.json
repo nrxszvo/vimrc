@@ -1,0 +1,17 @@
+{
+	"svelte.enable-ts-plugin": true,
+	"coc.preferences.formatOnSaveFiletypes": ["python"],
+	"inlayHint.enable": false,
+	"languageserver": {
+	  "ccls": {
+		"command": "ccls",
+		"filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],
+		"rootPatterns": ["compile_commands.json", ".git/", ".hg/"],
+		"initializationOptions": {
+			"cache": {
+			  "directory": "/tmp/ccls"
+			}
+		  }
+	  }
+	}
+}
