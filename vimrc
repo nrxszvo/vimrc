@@ -1,6 +1,6 @@
 let g:coc_global_extensions = [
-\ 'coc-pyright'
-]
+\ 'coc-pyright',
+\]
 call plug#begin()
 
 Plug 'tpope/vim-sensible', {'branch': 'master'}
