@@ -1,13 +1,15 @@
+let g:coc_global_extensions = [
+\ 'coc-pyright'
+]
 call plug#begin()
 
 Plug 'tpope/vim-sensible', {'branch': 'master'}
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': { -> coc#util#install() } }
 Plug 'othree/html5.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
-Plug 'yaegassy/coc-ruff', {'do': 'yarn install --frozen-lockfile'}
 call plug#end()
 
 " Prettier Settings
