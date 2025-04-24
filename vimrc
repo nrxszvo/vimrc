@@ -14,9 +14,6 @@ call plug#end()
 
 " Prettier Settings
 command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
-let g:prettier#quickfix_enabled = 0
-let g:prettier#autoformat_require_pragma = 0
-au BufWritePre *.css,*.svelte,*.pcss,*.html,*.ts,*.js,*.json PrettierAsync
 
 " CoC mappings
 " <cr> to confirm completion

@@ -1,5 +1,8 @@
 {
-	"svelte.enable-ts-plugin": true,
-	"[python]": { "coc.preferences.formatOnSave": true },
-	"inlayHint.enable": false
+  "svelte.enable-ts-plugin": true,
+  "coc.preferences.formatOnSave": true,
+  "inlayHint.enable": false,
+  "prettier.printWidth": 80,
+  "prettier.enableDebugLogs": true,
+  "prettier.useTabs": false
 }
